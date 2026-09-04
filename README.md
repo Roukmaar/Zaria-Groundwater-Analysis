@@ -6,7 +6,7 @@ This project uses Geographic Information Systems (GIS) to assess spatial gaps in
 
 ## Main Research Question
 
-Where are the spatial gaps in borehole and well coverage across Zaria Local Government Area relative to the population density?[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span)
+Where are the spatial gaps in borehole and well coverage across Zaria Local Government Area relative to the population density?
 
 ## Key Datasets & Sources
 
