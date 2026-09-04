@@ -1,50 +1,55 @@
-# Zaria Groundwater Infrastructure Spatial Gap Mapping Project
+# Zaria Groundwater Infrastructure & Health Facility Spatial Gap Mapping Project
 
 ## Project Question
 
-Where are the spatial gaps in borehole and well coverage across Zaria Local Government Area relative to the population density?
+Where are the spatial gaps in borehole and well coverage across Zaria Local Government Area relative to population density and primary healthcare facilities?
 
 ## Why This Project Matters
 
-Visualizing spatial gaps in groundwater infrastructure across the entire Zaria municipality guides future hydrogeological surveying and municipal drilling efforts. This ensures equitable water resource allocation for residents who lack access to formal taps or live in wards vulnerable to seasonal groundwater depletion.
+Visualizing spatial gaps in groundwater infrastructure across Zaria guides future hydrogeological surveying, municipal drilling programs, and preventative pump maintenance. Incorporating health facilities directly addresses institutional Water, Sanitation, and Hygiene (WASH) vulnerabilities, ensuring that both underserved residential settlements and frontline medical clinics obtain equitable, reliable, and hygienic water supplies.
 
 ## Study Area
 
-The study area is Zaria Local Government Area in Kaduna State, Nigeria. Zaria is a major urban center with surrounding peri-urban wards that rely on varying levels of formal and informal groundwater infrastructure.
+The study area is Zaria Local Government Area (LGA) in Kaduna State, Nigeria. Zaria is a major urban and institutional center with surrounding peri-urban and rural wards underlain by crystalline basement complex hydrogeology, where communities and public facilities rely heavily on decentralized boreholes and hand-dug wells.
 
 ## Data Required
 
-1. Zaria LGA and Ward boundaries
-2. Water points (boreholes, wells, and municipal taps)
-3. Population data (density and age-structured)
-4. Settlement extents
+1. Zaria LGA and operational ward boundaries
+2. Water points (boreholes, improved wells, and municipal taps with functionality statuses)
+3. Health facilities (primary health centres, clinics, hospitals)
+4. Population data (gridded density and distribution)
+5. Settlement extents (built-up footprints and hamlets)
 
 ## Data Sources
 
-* **Administrative Boundaries:** GRID3 Data Hub (NGA Operational Wards)
-* **Water Points:** GRID3 Data Hub (NGA Water Points) or OpenStreetMap via QuickOSM
-* **Population:** WorldPop 
-* **Settlements:** GRID3 Data Hub (NGA Settlement Extents)
+* **Administrative Boundaries:** GRID3 Data Hub (GRID3 Nigeria Operational Wards v3.0)
+* **Water Points:** Water Point Data Exchange (WPdx Nigeria) and GRID3 Data Hub (NGA Water Points)
+* **Health Facilities:** GRID3 Nigeria Health Facilities / HDX Nigeria Health Facilities
+* **Population:** WorldPop Nigeria (100m constrained resolution)
+* **Settlements:** GRID3 Data Hub (GRID3 NGA Settlement Extents)
 
 ## Planned GIS Analysis
 
-The project will investigate the spatial relationships between existing groundwater infrastructure and:
+The project will investigate spatial relationships between groundwater infrastructure and:
 
-* population distribution and density clusters
-* ward boundaries
-* settlement extents
+* Ward boundaries and administrative distribution
+* Population distribution and high-density settlement extents
+* Healthcare facility perimeters and accessibility corridors
 
-Overlay and spatial gap analysis will be used to identify underserved neighborhoods by highlighting high-density population clusters that lack adequate water infrastructure.
+Planned spatial processing includes:
+* Reprojecting datasets to **WGS 84 / UTM Zone 32N (`EPSG:32632`)** for accurate metric calculations.
+* Generating **500m** and **1,000m** walking distance service buffers around functional water points (per WHO/UNICEF JMP standards).
+* Running **Nearest Hub Distance Analysis** to determine whether healthcare centers have immediate (<100m), accessible (<500m), or critical (>500m deficit) water security.
+* Overlaying buffer gaps with population raster grids and settlement polygons to isolate underserved clusters.
 
 ## Expected Final Product
 
-The final project is expected to produce a GIS-based spatial gap map showing areas of potential water resource vulnerability in Zaria LGA.
+The final project will produce an analytical GIS spatial gap model and an interactive React-based web dashboard (powered by Leaflet). 
 
-The project will be developed into an interactive React-based web dashboard for municipal officers to visualize water resource allocation and target new drilling locations accurately.
+The dashboard will feature interactive ward selectors, layer toggles for functional versus broken infrastructure, and institutional WASH vulnerability badges to assist municipal officers, RUWASSA, and public health planners in targeting new drilling locations and prioritizing maintenance.
 
 ## Data Feasibility
 
-The required datasets have been identified and are openly available from geospatial data hubs such as GRID3 and WorldPop. 
+All core datasets have been verified and acquired from open geospatial repositories (GRID3, WPdx, and WorldPop).
 
-The most important dataset requiring careful validation is the water points dataset, as the accuracy and completeness of existing borehole and well locations directly affect the reliability of the spatial gap analysis.
-
+The ward boundaries and WPdx water point layer (filtered to 275 records for Zaria LGA) have already been ingested, validated, and visually confirmed in QGIS, ensuring high feasibility for immediate buffering, healthcare facility joins, and web dashboard integration.
