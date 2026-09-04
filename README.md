@@ -30,6 +30,6 @@ The project will be developed into an interactive web dashboard for municipal of
 
 ## Project Status
 
-| Weeks | Achievement |
+| Weeks | Achievements |
 | :--- | :--- |
 | Week 1 | Project definition and data feasibility completed. |
