@@ -12,8 +12,8 @@ Where are the spatial gaps in borehole and well coverage across Zaria Local Gove
 
 | Dataset | Source |
 | :--- | :--- |
-| Water points (boreholes, wells, and municipal taps) | [GRID3 NGA Water Points](https://data.grid3.org/datasets/GRID3::grid3-nga-water-points/about) |
-| Ward boundaries | [GRID3 NGA Operational Wards v3.0](https://data.humdata.org/dataset/grid3-nga-operational-wards-v3-0) |
+| Water points (boreholes, wells, and municipal taps) | [HDX WPdx Nigeria.](https://data.humdata.org/m/dataset/wpdx_nga?hl=en-US) |
+| Ward boundaries | [GRID3 NGA Operational Wards v3.0 on HDX](https://data.humdata.org/dataset/grid3-nga-operational-wards-v3-0) |
 | Settlement extents | [GRID3 NGA Settlement Extents](https://data.grid3.org/search?q=Settlement%20Extents%20NGA) |
 | Population data (age and density structured) | [WorldPop Nigeria 100m Resolution](https://hub.worldpop.org/geodata/summary?id=52307) |
 
