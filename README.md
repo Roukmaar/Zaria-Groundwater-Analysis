@@ -20,7 +20,7 @@ Where are the spatial gaps in borehole and well coverage across Zaria Local Gove
 
 ## Project Goal
 
-The project aims to use GIS spatial analysis to examine the relationship between existing water points, settlement patterns, and population density, while auditing Water, Sanitation, and Hygiene (WASH) accessibility for primary healthcare facilities[cite: 1, 2]. The resulting spatial gap map for Zaria LGA will guide future hydrogeological surveying, municipal drilling efforts, and targeted institutional maintenance.
+The project aims to use GIS spatial analysis to examine the relationship between existing water points, settlement patterns, and population density, while auditing Water, Sanitation, and Hygiene (WASH) accessibility for primary healthcare facilities. The resulting spatial gap map for Zaria LGA will guide future hydrogeological surveying, municipal drilling efforts, and targeted institutional maintenance.
 
 ## Expected Output
 
