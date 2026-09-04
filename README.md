@@ -10,13 +10,13 @@ Where are the spatial gaps in borehole and well coverage across Zaria Local Gove
 
 ## Key Datasets & Sources
 
-| Dataset | Source | | Size
+| Dataset | Source | Size
 | :--- | :--- | :--- |
-| Water points (boreholes, wells, and municipal taps) | [HDX WPdx Nigeria](https://data.humdata.org/m/dataset/wpdx_nga?hl=en-US) , [GRID3 NGA Water Points](https://data.grid3.org/datasets/grid3-nga-water-points/about) | 7.5MB
-| Ward boundaries | [GRID3 NGA Operational Wards v3.0 on HDX](https://data.humdata.org/dataset/grid3-nga-operational-wards-v3-0) | 190MB
-| Health facilities (hospitals, clinics, primary health centres) | [GRID3 Nigeria Health Facilities](https://data.grid3.org/datasets/grid3-nga-health-facilities/about) , [HDX Nigeria Health Facilities](https://data.humdata.org/dataset/nigeria-health-facilities) | 16MB
-| Settlement extents | [GRID3 NGA Settlement Extents](https://data.grid3.org/search?q=Settlement%20Extents%20NGA) | 2.0GB
-| Population data (age and density structured) | [WorldPop Nigeria 100m Resolution](https://hub.worldpop.org/geodata/summary?id=52307) | 158MB
+| Water points (boreholes, wells, and municipal taps) | [HDX WPdx Nigeria](https://data.humdata.org/m/dataset/wpdx_nga?hl=en-US) , [GRID3 NGA Water Points](https://data.grid3.org/datasets/grid3-nga-water-points/about) | 7.5MB |
+| Ward boundaries | [GRID3 NGA Operational Wards v3.0 on HDX](https://data.humdata.org/dataset/grid3-nga-operational-wards-v3-0) | 190MB |
+| Health facilities (hospitals, clinics, primary health centres) | [GRID3 Nigeria Health Facilities](https://data.grid3.org/datasets/grid3-nga-health-facilities/about) , [HDX Nigeria Health Facilities](https://data.humdata.org/dataset/nigeria-health-facilities) | 16MB |
+| Settlement extents | [GRID3 NGA Settlement Extents](https://data.grid3.org/search?q=Settlement%20Extents%20NGA) | 2.0GB |
+| Population data (age and density structured) | [WorldPop Nigeria 100m Resolution](https://hub.worldpop.org/geodata/summary?id=52307) | 158MB |
 
 ## Project Goal
 
