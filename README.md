@@ -20,14 +20,16 @@ Where are the spatial gaps in borehole and well coverage across Zaria Local Gove
 
 ## Project Goal
 
-The project aims to use GIS spatial analysis to examine the relationship between existing water points and population density, and to produce a spatial gap map for Zaria LGA to guide future hydrogeological surveying and municipal drilling efforts.[span_10](start_span)[span_10](end_span)[span_11](start_span)[span_11](end_span)
+The project aims to use GIS spatial analysis to examine the relationship between existing water points and population density, and to produce a spatial gap map for Zaria LGA to guide future hydrogeological surveying and municipal drilling efforts.
 
 ## Expected Output
 
-The final output will be a GIS-based spatial map and a React-based dashboard identifying underserved neighborhoods by overlaying high-density population clusters with existing water infrastructure.[span_12](start_span)[span_12](end_span)[span_13](start_span)[span_13](end_span)
+The final output will be a GIS-based spatial map and a React-based dashboard identifying underserved neighborhoods by overlaying high-density population clusters with existing water infrastructure
 
-The project will be developed into an interactive web dashboard for municipal officers to target new drilling locations accurately.[span_14](start_span)[span_14](end_span)[span_15](start_span)[span_15](end_span)
+The project will be developed into an interactive web dashboard for municipal officers to target new drilling locations accurately.
 
 ## Project Status
 
-Week 1 - Project definition and data feasibility completed.
+| Weeks | Achievement |
+| :--- | :--- |
+| Week 1 | Project definition and data feasibility completed. |
