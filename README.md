@@ -10,15 +10,16 @@ Where are the spatial gaps in borehole and well coverage across Zaria Local Gove
 
 ## Key Datasets & Sources
 
-| Dataset | Source | Size
-| :--- | :--- | :--- |
-| Water points (boreholes, wells, and municipal taps) | [HDX WPdx Nigeria](https://data.humdata.org/m/dataset/wpdx_nga?hl=en-US) , [GRID3 NGA Water Points](https://data.grid3.org/datasets/grid3-nga-water-points/about) | 7.5MB |
-| State Boundaries (Admin 1) | [GRID3 NGA – Operational State Boundaries](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/about) | 1.2MB |
-| LGA Boundaries (Admin 2) | [GRID3 NGA – Operational LGA Boundaries](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about) | 4.3MB |
-| Ward boundaries (Admin 3) | [GRID3 NGA Operational Wards v3.0](https://data.humdata.org/dataset/grid3-nga-operational-wards-v3-0) | 190MB |
-| Health facilities (hospitals, clinics, primary health centres) | [GRID3 Nigeria Health Facilities](https://data.grid3.org/datasets/827e3638dc204f4b9ddbbd19b00954d6) | 16MB |
-| Settlement extents | [GRID3 NGA Settlement Extents](https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-0/about) | 2.0GB |
-| Population data (age and density structured) | [WorldPop Nigeria 100m Resolution](https://hub.worldpop.org/geodata/summary?id=52307) | 158MB |
+| Dataset | Source / Link | Geometry Type | NOs. of Features | Key Columns | Gaps / Notes | Size | Last Updated |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **State Boundaries (Admin 1)** | [GRID3 NGA State Boundaries](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/about) | Polygon | 37 | `statename`, `statecode`, `globalid` | Complete country coverage | 1.2MB | 30 Apr 2024 |
+| **LGA Boundaries (Admin 2)** | [GRID3 NGA LGA Boundaries](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about) | Polygon | 774 | `lgaame`, `lgacode`, `statename` | Complete country coverage | 4.3MB | 4 Sept 2025 |
+| **Ward Boundaries (Admin 3)** | [GRID3 NGA Wards v3.0](https://data.humdata.org/dataset/grid3-nga-operational-wards-v3-0) | Polygon | 5,872 | `lga`, `ward`, `ward_alt_name`, `area_sqkm` | Only 24 states. Operational, not fully validated by govt | 190MB | 5 Jul 2026 |
+| **Settlement Extents v4.1** | [GRID3 NGA Settlement Extents](https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-0/about) | Polygon | 2,546,560 | `extent_type`, `block_area_sqm`, `building_count` | Nationwide. Blocks derived from roads, buildings, rivers | 2.0GB | 4 Aug 2026 |
+| **Health Facilities v3.0** | [GRID3 NGA Health Facilities](https://data.grid3.org/datasets/827e3638dc204f4b9ddbbd19b00954d6) | Point | 41,778 | `facility_name`, `facility_type`, `facility_ownership` | 24 states. Non-exhaustive, operational dataset | 16MB | 14 Aug 2026 |
+| **Population 2025** | [WorldPop Nigeria 100m](https://hub.worldpop.org/geodata/summary?id=52307) | Raster | ----- | `population_per_pixel` | Constrained 2025 estimates. ~100m resolution, WGS84, GeoTIFF | 158MB | 2025 |
+| **Water Points** | [WPdx Nigeria](https://data.humdata.org/m/dataset/wpdx_nga?hl=en-US) + [GRID3 Water Points](https://data.grid3.org/datasets/grid3-nga-water-points/about) | Point | 99,246 | `water_source_tech`, `install_year` | Incomplete coverage. GRID3 + crowdsourced WPdx | 7.5MB | 26 Jul 2026 |
+| **Road Network** | [QuickOSM - OpenStreetMap](https://www.openstreetmap.org/) | Line | 7461 | `highway`, `name`, `surface` | Downloaded via QGIS QuickOSM plugin. Urban areas more complete than rural | ----- | 10 Sept 2026  |
 
 ## Project Goal
 
@@ -35,3 +36,4 @@ The project will be developed into an interactive web dashboard for municipal of
 | Weeks | Achievements |
 | :--- | :--- |
 | Week 1 | Project definition and data feasibility completed |
+| Week 2 | Datasets downloaded and inspected in QGIS |
