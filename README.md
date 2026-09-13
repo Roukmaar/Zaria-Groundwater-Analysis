@@ -10,7 +10,7 @@ Where are the spatial gaps in borehole and well coverage across Zaria Local Gove
 
 ## Key Datasets & Sources
 
-| Dataset | Source / Link | Geometry Type | NOs. of Features | Key Columns | Gaps / Notes | Size | Last Updated |
+| Dataset | Source / Link | Geometry Type | NOs. of Features | Key Columns | Summary / Gaps | Size | Last Updated |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **State Boundaries (Admin 1)** | [GRID3 NGA State Boundaries](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/about) | Polygon | 37 | `statename`, `statecode`, `globalid` | Complete country coverage | 1.2MB | 30 Apr 2024 |
 | **LGA Boundaries (Admin 2)** | [GRID3 NGA LGA Boundaries](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about) | Polygon | 774 | `lgaame`, `lgacode`, `statename` | Complete country coverage | 4.3MB | 4 Sept 2025 |
