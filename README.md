@@ -36,4 +36,4 @@ The project will be developed into an interactive web dashboard for municipal of
 | Weeks | Achievements |
 | :--- | :--- |
 | Week 1 | Project definition and data feasibility completed |
-| Week 2 | Datasets downloaded and inspected in QGIS |
+| Week 2 | Datasets downloaded, inspected and confirmed in QGIS |
