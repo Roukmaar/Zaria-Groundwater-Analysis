@@ -18,31 +18,7 @@
 
 Provides operational ward boundary polygons for 24 states in Nigeria:
 
-- Abia
-- Adamawa
-- Bauchi
-- Bayelsa
-- Borno
-- Delta
-- Enugu
-- FCT Abuja
-- Gombe
-- Jigawa
-- Kaduna
-- Kano
-- Katsina
-- Kebbi
-- Kogi
-- Kwara
-- Nasarawa
-- Niger
-- Ogun
-- Osun
-- Oyo
-- Sokoto
-- Yobe
-- Zamfara
-
+- **Coverage:** Abia, Adamawa, Bauchi, Bayelsa, Borno, Delta, Enugu, FCT Abuja, Gombe, Jigawa, Kaduna, Kano, Katsina, Kebbi, Kogi, Kwara, Nasarawa, Niger, Ogun, Osun, Oyo, Sokoto, Yobe, Zamfara
 - **Geometry:** Polygon
 - **Released:** June 2026
 - **Date Updated:** 5 July 2026 at 18:37:18 GMT+1
