@@ -19,7 +19,7 @@ Where are the spatial gaps in borehole and well coverage across Zaria Local Gove
 | **Health Facilities v3.0** | [GRID3 NGA Health Facilities](https://data.grid3.org/datasets/827e3638dc204f4b9ddbbd19b00954d6) | Point | 41,778 | `facility_name`, `facility_type`, `facility_ownership` | 24 states. Non-exhaustive, operational dataset | 16MB | 14 Aug 2026 |
 | **Population 2025** | [WorldPop Nigeria 100m](https://hub.worldpop.org/geodata/summary?id=52307) | Raster | ----- | `population_per_pixel` | Constrained 2025 estimates. ~100m resolution, WGS84, GeoTIFF | 158MB | 2025 |
 | **Water Points** | [WPdx Nigeria](https://data.humdata.org/m/dataset/wpdx_nga?hl=en-US) + [GRID3 Water Points](https://data.grid3.org/datasets/grid3-nga-water-points/about) | Point | 99,246 | `water_source_tech`, `install_year` | Incomplete coverage. GRID3 + crowdsourced WPdx | 7.5MB | 26 Jul 2026 |
-| **Road Network** | [QuickOSM - OpenStreetMap](https://www.openstreetmap.org/) | Line | 7461 | `highway`, `name`, `surface` | Downloaded via QGIS QuickOSM plugin. Urban areas more complete than rural | ----- | 10 Sept 2026  |
+| **Road Network** | [QuickOSM - OpenStreetMap](https://www.openstreetmap.org/) | Line | 7461 | `highway`, `name`, `surface` | Downloaded via QGIS QuickOSM plugin. Urban areas more complete than rural. Query: Highway | ----- | 10 Sept 2026  |
 
 ## Project Goal
 
