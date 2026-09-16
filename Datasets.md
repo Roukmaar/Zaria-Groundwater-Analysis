@@ -124,6 +124,7 @@ Crowdsourced data focused on rural water points, including wells, springs, and t
 Highway and road network data downloaded through the QGIS QuickOSM plugin.
 
 - **Coverage:** Study area
+- **Query:** Highway 
 - **Geometry:** Line
 - **Source:** OoenStreetMap via QuickOSM plugin in QGIS
 - **Number of Features:** 7,461
