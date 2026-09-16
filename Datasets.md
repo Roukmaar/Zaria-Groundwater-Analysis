@@ -4,6 +4,7 @@
 
 - **Coverage:** Nigeria
 - **Geometry:** Polygon
+- **Source:** https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/about
 - **Number of Features:** 37
 - **Key Columns:**
   - `statename`
@@ -16,6 +17,7 @@
 
 - **Coverage:** Nigeria
 - **Geometry:** Polygon
+- **Source:** https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about
 - **Number of Features:** 774
 - **Key Columns:**
   - `lgaame`
@@ -30,6 +32,7 @@ Provides operational ward boundary polygons for 24 states in Nigeria.
 
 - **Coverage:** 24 states-Abia, Adamawa, Bauchi, Bayelsa, Borno, Delta, Enugu, FCT Abuja, Gombe, Jigawa, Kaduna, Kano, Katsina, Kebbi, Kogi, Kwara, Nasarawa, Niger, Ogun, Osun, Oyo, Sokoto, Yobe, Zamfara
 - **Geometry:** Polygon
+- **Source:** https://data.humdata.org/dataset/grid3-nga-operational-wards-v3-0
 - **Number of Features:** 5,872
 - **Key Columns:**
   - `lga`
@@ -46,6 +49,7 @@ Geographic representation of settlements in Nigeria, including settlement blocks
 
 - **Coverage:** Nigeria
 - **Geometry:** Polygon
+- **Source:** https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-0/about
 - **Number of Features:** 2,546,560
 - **Key Columns:**
   - `extent_type`
@@ -60,6 +64,7 @@ Non-exhaustive, non-validated geographic representation of health facility point
 
 - **Coverage:** 24 states-Abia, Adamawa, Bauchi, Bayelsa, Borno, Delta, Enugu, FCT Abuja, Gombe, Jigawa, Kaduna, Kano, Katsina, Kebbi, Kogi, Kwara, Nasarawa, Niger, Ogun, Osun, Oyo, Sokoto, Yobe, Zamfara
 - **Geometry:** Point
+- **Source:** https://data.grid3.org/datasets/827e3638dc204f4b9ddbbd19b00954d6
 - **Number of Features:** 41,778
 - **Key Columns:**
   - `facility_name`
@@ -76,6 +81,7 @@ Constrained estimates of the total number of people per grid cell for 2025.
 - **Coverage:** Nigeria
 - **Format:** GeoTIFF
 - **Geometry:** Raster
+- **Source:** https://hub.worldpop.org/geodata/summary?id=52307
 - **Resolution:** 3 arc-seconds (~100 m at the equator)
 - **Number of Features:** Not applicable — raster dataset
 - **Key Data:**
@@ -91,6 +97,7 @@ Water points and names in Nigeria.
 
 - **Coverage:** Nigeria
 - **Geometry:** Point
+- **Source:** https://data.grid3.org/datasets/grid3-nga-water-points/about
 - **Number of Features:** Not specified
 - **Key Columns:**
   - Water point name
@@ -105,6 +112,7 @@ Crowdsourced data focused on rural water points, including wells, springs, and t
 
 - **Coverage:** Nigeria
 - **Geometry:** Point
+- **Source:** https://data.humdata.org/m/dataset/wpdx_nga?hl=en-US
 - **Number of Features:** 99,246
 - **Key Columns:**
   - `water_source_tech`
@@ -117,6 +125,7 @@ Highway and road network data downloaded through the QGIS QuickOSM plugin.
 
 - **Coverage:** Study area
 - **Geometry:** Line
+- **Source:** OoenStreetMap via QuickOSM plugin in QGIS
 - **Number of Features:** 7,461
 - **Key Columns:**
   - `highway`
