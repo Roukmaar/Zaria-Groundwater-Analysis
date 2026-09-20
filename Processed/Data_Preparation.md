@@ -40,7 +40,7 @@ All raw input datasets were reprojected from their source coordinate systems (EP
 
 ## 4. Analysis-Ready Output
 
-* **Analysis-Ready GeoPackage:** `root/Processed/Zaria_analysis_ready.gpkg`
+* **Analysis-Ready GeoPackage:** `/Processed/Zaria_analysis_ready.gpkg`
 * **CRS: `WGS 84 / UTM Zone 32N (EPSG:32632 )`**
 * **Format: `Geopackage (.gpkg)`**
 * **Produced by: `Manually in QGIS`**
