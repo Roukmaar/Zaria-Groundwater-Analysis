@@ -41,7 +41,7 @@ All raw input datasets were reprojected from their source coordinate systems (EP
 ## 4. Analysis-Ready Output
 
 * **Analysis-Ready GeoPackage:** [`Zaria_analysis_ready.gpkg`](https://github.com/Roukmaar/Zaria-Groundwater-Analysis/raw/refs/heads/main/Processed/Zaria_analysis_ready.gpkg)
-* **QGIS Project File:** [`Zaria_LGA_WaterPoints+HealthFacilities+Roads+Settlements.qgz`](Zaria_LGA_WaterPoints%2BHealthFacilities%2BRoads%2BSettlements.qgz)
+* **QGIS Project File:** [`Zaria_LGA_WaterPoints+HealthFacilities+Roads+Settlements.qgz`](https://github.com/Roukmaar/Zaria-Groundwater-Analysis/raw/refs/heads/main/Processed/Zaria_LGA_WaterPonts+HealthFacilities+Roads+Settlements.qgz)
 * **CRS:** `WGS 84 / UTM Zone 32N (EPSG:32632)`
 * **Format:** `GeoPackage (.gpkg)`
 * **Produced by:** Manually processed in QGIS
