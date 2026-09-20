@@ -33,9 +33,9 @@ The project will be developed into an interactive web dashboard for municipal of
 
 ## Project Status
 
-| Weeks | Achievements |
+| Weeks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Achievements |
 | :--- | :--- |
-| Week 1 | Project definition and data feasibility completed |
-| Week 2 | Datasets downloaded, inspected and confirmed in QGIS |
-| Week 3 | Datasets reprojected to EPSG:32632 (WGS 84/UTM Zone 32N) , clipped to study area and geometry validity checked. Quality Assurance completed. Saved to analysis-ready Geopackage. |
+| Week&nbsp;1 | Project definition and data feasibility completed |
+| Week&nbsp;2 | Datasets downloaded, inspected and confirmed in QGIS |
+| Week&nbsp;3 | Datasets reprojected to EPSG:32632 (WGS 84/UTM Zone 32N), clipped to study area and geometry validity checked. Quality Assurance completed. Saved to analysis-ready Geopackage. |
 
