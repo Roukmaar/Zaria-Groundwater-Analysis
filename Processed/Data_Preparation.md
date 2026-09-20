@@ -40,7 +40,7 @@ All raw input datasets were reprojected from their source coordinate systems (EP
 
 ## 4. File Location & Storage
 
-* **Analysis-Ready GeoPackage:** `data/processed/Zaria_analysis_ready.gpkg`
+* **Analysis-Ready GeoPackage:** `root/processed/Zaria_analysis_ready.gpkg`
 * **Internal Layers:**
   * `Zaria_LGA_Boundary_from_Wards` — Dissolved perimeter polygon
   * `Zaria_Wards_UTM32N` — Administrative ward units (EPSG:32632)
