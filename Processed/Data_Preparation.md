@@ -38,9 +38,12 @@ All raw input datasets were reprojected from their source coordinate systems (EP
 
 ---
 
-## 4. File Location & Storage
+## 4. Analysis-Ready Output
 
 * **Analysis-Ready GeoPackage:** `root/Processed/Zaria_analysis_ready.gpkg`
+* **CRS: `WGS 84 / UTM Zone 32N (EPSG:32632 )`**
+* **Format: `Geopackage (.gpkg)`**
+* **Produced by: `Manually in QGIS`**
 * **Internal Layers:**
   * `Zaria_LGA_Boundary_from_Wards` — Dissolved perimeter polygon
   * `Zaria_Wards_UTM32N` — Administrative ward units (EPSG:32632)
@@ -48,4 +51,3 @@ All raw input datasets were reprojected from their source coordinate systems (EP
   * `Zaria_Wards_WaterPoints_UTM32N` — Groundwater and domestic water access points
   * `Zaria_LGA_Roads_Line_UTM32N — clipped` — Clipped transport network lines
   * `Zaria_LGA_Settlements_Extents_UTM32N` — Validated built-up area polygons
-  
