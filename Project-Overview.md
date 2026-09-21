@@ -11,6 +11,7 @@ Visualizing spatial gaps in groundwater infrastructure across the entire Zaria m
 ## Study Area
 
 The study area is Zaria Local Government Area in Kaduna State, Nigeria. Zaria is a major urban center with surrounding peri-urban wards that rely on varying levels of formal and informal groundwater infrastructure.
+![ZariaLGA Settlements and Road Networks](Processed/Zaria-Mini-Projects.png)
 
 ## Data Required
 
