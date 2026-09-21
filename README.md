@@ -8,6 +8,12 @@ This project uses Geographic Information Systems (GIS) to assess spatial gaps in
 
 Where are the spatial gaps in borehole and well coverage across Zaria Local Government Area relative to population density and primary healthcare facility locations.
 
+## Study Area
+
+The study area is Zaria Local Government Area in Kaduna State, Nigeria. Zaria is a major urban center with surrounding peri-urban wards that rely on varying levels of formal and informal groundwater infrastructure.
+
+![Zaria LGA Settlements and Road Networks](Processed/Zaria-Mini-Project.png)
+
 ## Key Datasets & Sources
   
 | Dataset | Source / Link | Geometry Type | NOs. of Features | Key Columns | Note / Gaps | Size | Last Updated |
