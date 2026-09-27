@@ -28,7 +28,7 @@
 
 ### 3. GRID3 NGA – Operational Wards v3.0 (Admin 3)
 
-Provides operational ward boundary polygons for 24 states in Nigeria.
+Provides operational ward boundary polygons for 24 states in Nigeria .
 
 - **Coverage:** 24 states-Abia, Adamawa, Bauchi, Bayelsa, Borno, Delta, Enugu, FCT Abuja, Gombe, Jigawa, Kaduna, Kano, Katsina, Kebbi, Kogi, Kwara, Nasarawa, Niger, Ogun, Osun, Oyo, Sokoto, Yobe, Zamfara
 - **Geometry:** Polygon
@@ -41,11 +41,11 @@ Provides operational ward boundary polygons for 24 states in Nigeria.
   - `area_sqkm`
 - **Released:** June 2026
 - **Date Updated:** 5 July 2026 at 18:37:18 GMT+1
-- **Note:** Operational boundaries that have not yet undergone full validation by relevant government authorities. 0
+- **Note:** Operational boundaries that have not yet undergone full validation by relevant government authorities.
 
 ### 4. GRID3 NGA – Settlement Extents v4.1
 
-Geographic representation of settlements in Nigeria, including settlement blocks within urban and small settlement areas.
+Geographic representation of settlements in Nigeria, including settlement blocks within urban and small settlement areas .
 
 - **Coverage:** Nigeria
 - **Geometry:** Polygon
@@ -60,7 +60,7 @@ Geographic representation of settlements in Nigeria, including settlement blocks
 
 ### 5. GRID3 NGA – Health Facilities v3.0
 
-Non-exhaustive, non-validated geographic representation of health facility points.
+Non-exhaustive, non-validated geographic representation of health facility points . Critical baseline for assessing primary healthcare IPC readiness and identifying facilities vulnerable to water-deficit infectious disease transmission.
 
 - **Coverage:** 24 states-Abia, Adamawa, Bauchi, Bayelsa, Borno, Delta, Enugu, FCT Abuja, Gombe, Jigawa, Kaduna, Kano, Katsina, Kebbi, Kogi, Kwara, Nasarawa, Niger, Ogun, Osun, Oyo, Sokoto, Yobe, Zamfara
 - **Geometry:** Point
@@ -76,7 +76,7 @@ Non-exhaustive, non-validated geographic representation of health facility point
 
 ### 6. WorldPop – 2025 Population
 
-Constrained estimates of the total number of people per grid cell for 2025.
+Constrained estimates of the total number of people per grid cell for 2025 . Used to assess population exposure in unserved groundwater zones and evaluate transmission pressure in dense settlements.
 
 - **Coverage:** Nigeria
 - **Format:** GeoTIFF
@@ -93,7 +93,7 @@ Constrained estimates of the total number of people per grid cell for 2025.
 
 ### 7. GRID3 NGA – Water Points
 
-Water points and names in Nigeria.
+Water points and names in Nigeria .
 
 - **Coverage:** Nigeria
 - **Geometry:** Point
@@ -104,11 +104,11 @@ Water points and names in Nigeria.
   - Water point location
 - **Released:** September 2020
 - **Date Updated:** 4 September 2025
-- **Note:** Dataset is incomplete for the country.
+- **Note:** Dataset is incomplete for the country .
 
 ### 8. WPDx – Water Point Data Exchange (NGA)
 
-Crowdsourced data focused on rural water points, including wells, springs, and tapstands.
+Crowdsourced data focused on rural water points, including wells, springs, and tapstands . Filtered for operational status to establish the active drinking water baseline for IPC and community buffers.
 
 - **Coverage:** Nigeria
 - **Geometry:** Point
@@ -121,12 +121,12 @@ Crowdsourced data focused on rural water points, including wells, springs, and t
 
 ### 9. OpenStreetMap (OSM) – Highways
 
-Highway and road network data downloaded through the QGIS QuickOSM plugin.
+Highway and road network data downloaded through the QGIS QuickOSM plugin .
 
 - **Coverage:** Study area
-- **Query:** Highway 
+- **Query:** Highway
 - **Geometry:** Line
-- **Source:** OoenStreetMap via QuickOSM plugin in QGIS
+- **Source:** OpenStreetMap via QuickOSM plugin in QGIS
 - **Number of Features:** 7,461
 - **Key Columns:**
   - `highway`
