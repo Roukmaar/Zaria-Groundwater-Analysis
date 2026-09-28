@@ -43,6 +43,6 @@ Administrative ward distribution shows significant infrastructure clustering:
 
 ## 4. Analytical Map Output
 
-![Zaria LGA WASH Gap Analysis](Processed/Zaria_IPC_Vunerability_Map.png)
+![Zaria LGA WASH Gap Analysis](/Processed/Zaria_IPC_Vunerability_Map.png)
 
 *Figure 1: Spatial distribution of healthcare IPC vulnerability tiers, 500 m groundwater walking catchments, unserved settlement gaps, and road connectivity across Zaria LGA.*
