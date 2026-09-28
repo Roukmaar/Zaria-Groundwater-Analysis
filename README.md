@@ -12,7 +12,8 @@ Where are the critical spatial gaps in borehole and well coverage across Zaria L
 
 The study area is Zaria Local Government Area in Kaduna State, Nigeria. Zaria is a major urban center with surrounding peri-urban wards that rely on varying levels of formal and informal groundwater infrastructure.
 
-![Zaria LGA Settlements and Road Networks](Processed/Zaria_IPC_Vunerability_Map.png)
+![Zaria LGA Settlements and Road Networks](Processed/Zaria-Mini-Project.png)
+*Figure 1: Spatial distribution of Settlements and Road connectivity across Zaria LGA.*
 
 ## Key Datasets & Sources
 
@@ -44,6 +45,22 @@ The project will be developed into an interactive web dashboard for municipal of
 - [Week 3: Data Preparation & Quality Assurance](Processed/Data_Preparation.md)
 - [Week 4: Month 1 Summary Report](Month-1-Summary.md)
 
+
+## Key Findings (Month 1 Analysis)
+
+- **Healthcare IPC Vulnerability:** Out of **84** health facilities evaluated across Zaria LGA, **61.9% (52 facilities)** lack an on-site functional groundwater source within 100 meters. 
+  - **32 facilities (38.1%):** Adequate on-site access ($\le$ 100 m).
+  - **37 facilities (44.0%):** Moderate deficit requiring off-site hauling (100 m – 500 m).
+  - **15 facilities (17.9%):** Critical IPC vulnerability located over 500 m from the nearest functional water point.
+- **Ward-Level Groundwater Deficits:** Significant spatial disparities exist across administrative boundaries. **Gyellesu** and **Kufena** recorded the lowest infrastructure density with only **12 functional water points** each, followed by **Dambo**, **Limancin Kofa**, and **Tudun Wada** with 15 each.
+- **Settlement Gaps:** Buffer difference modeling highlights substantial residential pockets in both peri-urban corridors and dense urban wards falling entirely outside the 500 m pedestrian walking threshold.
+  
+![Zaria LGA WASH Gap Analysis](/Processed/Zaria_IPC_Vunerability_Map.png)
+
+*Figure 2: Spatial distribution of healthcare IPC vulnerability tiers, 500 m groundwater walking catchments, unserved settlement gaps, and road connectivity across Zaria LGA.*
+
+> For the comprehensive methodology, technical workflow, and data catalog, see [Month-1-Summary.md](Month-1-Summary.md).
+> 
 ## Project Status
 
 | Weeks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Achievements                                                                                                                                                                    |
