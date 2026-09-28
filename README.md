@@ -37,6 +37,14 @@ The final output will be a GIS-based spatial gap map and a React-based interacti
 
 The project will be developed into an interactive web dashboard for municipal officers, hydrogeologists, and public health planners to prioritize emergency interventions and target new borehole drilling locations accurately.
 
+## Documentation & Weekly Deliverables
+
+- [Week 1: Project Brief & Datasets](Project-Overview.md)
+- [Week 2: Data Notes & Inspection](Datasets.md)
+- [Week 3: Data Preparation & Quality Assurance](Processed/data-preparation.md)
+- [Week 4: Month 1 Summary Report](Month-1-Summary.md)
+
+- 
 ## Project Status
 
 | Weeks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Achievements                                                                                                                                                                    |
