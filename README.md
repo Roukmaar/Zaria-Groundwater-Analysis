@@ -41,7 +41,7 @@ The project will be developed into an interactive web dashboard for municipal of
 
 - [Week 1: Project Brief & Datasets](Project-Overview.md)
 - [Week 2: Data Notes & Inspection](Datasets.md)
-- [Week 3: Data Preparation & Quality Assurance](Processed/data_Preparation.md)
+- [Week 3: Data Preparation & Quality Assurance](Processed/Data_Preparation.md)
 - [Week 4: Month 1 Summary Report](Month-1-Summary.md)
 
 - 
