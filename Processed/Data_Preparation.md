@@ -44,12 +44,12 @@ All raw input datasets were reprojected from their source coordinate systems (EP
 ## 4. Analysis-Ready Output
 
 - **Analysis-Ready GeoPackage:** [`Zaria_analysis_ready.gpkg`](https://github.com/Roukmaar/Zaria-Groundwater-Analysis/raw/refs/heads/main/Processed/Zaria_analysis_ready.gpkg)
-- **QGIS Project File:** [`Zaria_IPC_Vunerability_Map.qgz`]([https://github.com/Roukmaar/Zaria-Groundwater-Analysis/raw/refs/heads/main/Processed/Zaria_LGA_WaterPonts+HealthFacilities+Roads+Settlements.qgz](https://github.com/Roukmaar/Zaria-Groundwater-Health-Vulnerability/blob/main/Processed/Zaria_IPC_Vunerability_Map.qgz))
+- **QGIS Project File:** [`Zaria_IPC_Vunerability_Map.qgz`](https://github.com/Roukmaar/Zaria-Groundwater-Health-Vulnerability/blob/main/Processed/Zaria_IPC_Vunerability_Map.qgz)
 - **CRS:** `WGS 84 / UTM Zone 32N (EPSG:32632)`
 - **Format:** `GeoPackage (.gpkg), Compressed QGIS Project (.qgz)`
 - **Produced by:** Manually processed in QGIS
 - **Internal Layers:**
-  ### Primary Base Layers
+    ### Primary Base Layers
 - `Zaria_LGA_Boundary_from_Wards_Valid` — Dissolved outer administrative perimeter polygon (EPSG:32632)
 - `Zaria_Wards_UTM32N` — Administrative ward units and boundary extents (EPSG:32632)
 - `Zaria_LGA_HealthFacilities_UTM32N` — Validated primary, secondary, and tertiary health facility point locations (EPSG:32632)
@@ -57,7 +57,7 @@ All raw input datasets were reprojected from their source coordinate systems (EP
 - `Zaria_LGA_Roads_Line_UTM32N — clipped` — Clipped transport infrastructure and street network lines (EPSG:32632)
 - `Zaria_LGA_Settlements_Extents_UTM32N` — Validated residential settlement footprints and built-up area extents (EPSG:32632)
 
-### Derived Analytical & Geoprocessing Outputs
+    ### Derived Analytical & Geoprocessing Outputs
 - `HealthFacilities-distance-to-WaterPoints` — Point distance matrix output storing calculated Euclidean distance (`HubDist` in meters) from every healthcare facility to the nearest functional water point
 - `WaterPoints-500m-Buffer` — 500-meter dissolved Euclidean walking catchment envelopes representing basic pedestrian water access
 - `Diff-buffer-settlements` — Spatial difference output isolating unserved settlement footprints that fall entirely outside the 500 m groundwater catchment zones
