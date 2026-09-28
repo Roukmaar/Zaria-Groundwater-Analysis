@@ -44,7 +44,7 @@ All raw input datasets were reprojected from their source coordinate systems (EP
 ## 4. Analysis-Ready Output
 
 - **Analysis-Ready GeoPackage:** [`Zaria_analysis_ready.gpkg`](https://github.com/Roukmaar/Zaria-Groundwater-Analysis/raw/refs/heads/main/Processed/Zaria_analysis_ready.gpkg)
-- **QGIS Project File:** [`Zaria_IPC_Vunerability_Map.qgz`](https://github.com/Roukmaar/Zaria-Groundwater-Health-Vulnerability/blob/main/Processed/Zaria_IPC_Vunerability_Map.qgz)
+- **QGIS Project File:** [`Zaria_IPC_Vunerability_Map.qgz`](https://github.com/Roukmaar/Zaria-Groundwater-Health-Vulnerability/raw/refs/heads/main/Processed/Zaria_IPC_Vunerability_Map.qgz)
 - **CRS:** `WGS 84 / UTM Zone 32N (EPSG:32632)`
 - **Format:** `GeoPackage (.gpkg), Compressed QGIS Project (.qgz)`
 - **Produced by:** Manually processed in QGIS
