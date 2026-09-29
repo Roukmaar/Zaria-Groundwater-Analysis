@@ -22,7 +22,17 @@ All spatial operations were processed in **QGIS** using a projected metric coord
 
 ---
 
-## 3. Key Quantitative Findings
+## 3. Expected vs. Observed Findings
+
+| Analysis Dimension | Prior Assumption / Expected Finding | Empirical / Observed Finding | Analytical Takeaway |
+| :--- | :--- | :--- | :--- |
+| **Healthcare IPC Proximity** | Most primary health facilities were presumed to have co-located or immediate on-site water access (≤ 100 m) due to institutional prioritization. | **61.9% (52 of 84 facilities)** lack an on-site functional water point within 100 m. In fact, **17.9% (15 facilities)** sit in acute deficits exceeding 500 m. | Healthcare centers were built largely independent of dedicated water supply networks, turning routine hygiene into an off-site hauling burden. |
+| **Settlement Walkability Catchments** | Urban wards were expected to possess near-complete 500 m walking catchment coverage, with deficits primarily confined to remote rural borders. | Extensive difference gaps exist **within dense urban settlement fabrics**, not just in peri-urban belts. | High building and population density has outpaced groundwater development, leaving central residential quarters unserved despite geographic proximity to town centers. |
+| **Ward-Level Equity** | Infrastructure points were expected to be roughly evenly distributed according to administrative ward size. | Severe spatial clustering: functional counts range widely from a low of **12 points** (Gyellesu, Kufena) to **46 points** in high-density wards. | Capital allocation and maintenance have historically concentrated in specific corridors, leaving historic and peri-urban wards structurally underserved. |
+
+---
+
+## 4. Key Quantitative Findings
 
 ### A. Health Facility Water Access & IPC Risk
 * **Total Health Facilities Evaluated:** 84
@@ -41,7 +51,7 @@ Administrative ward distribution shows significant infrastructure clustering:
 
 ---
 
-## 4. Analytical Map Output
+## 5. Analytical Map Output
 
 ![Zaria LGA WASH Gap Analysis](/Processed/Zaria_IPC_Vunerability_Map.png)
 
