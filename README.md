@@ -62,6 +62,7 @@ The project will be developed into an interactive web dashboard for municipal of
 > For the comprehensive methodology, technical workflow, and data catalog, see [Month-1-Summary.md](Month-1-Summary.md).
 > 
 ## Project Status
+### Month 1
 
 | Weeks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Achievements                                                                                                                                                                    |
 | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -69,3 +70,9 @@ The project will be developed into an interactive web dashboard for municipal of
 | Week&nbsp;2                                                                    | Datasets downloaded, inspected and confirmed in QGIS                                                                                                                            |
 | Week&nbsp;3                                                                    | Datasets reprojected to EPSG:32632 (WGS 84/UTM Zone 32N), clipped to study area and geometry validity checked. Quality Assurance completed. Saved to analysis-ready Geopackage. |
 | Week&nbsp;4                                                                    | Spatial operations execution: Distance to nearest hub, 500m/1000m buffering, settlement difference/gaps, and ward-level counts.                                                 |
+
+### Month 2 - Development environment and early Python
+
+| Weeks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Achievements                                                                                                                                                                    |
+| :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Week&nbsp;5                                                                    | Set up Python, VS Code and the terminal. Hello.py runs.                                                                                                                              |
