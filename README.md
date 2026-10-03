@@ -62,7 +62,7 @@ The project will be developed into an interactive web dashboard for municipal of
 > For the comprehensive methodology, technical workflow, and data catalog, see [Month-1-Summary.md](Month-1-Summary.md).
 > 
 ## Project Status
-### Month 1
+### Month 1 -GIS Foundations and Data Sourcing
 
 | Weeks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Achievements                                                                                                                                                                    |
 | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
